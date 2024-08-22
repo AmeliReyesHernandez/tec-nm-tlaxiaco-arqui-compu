@@ -1,7 +1,7 @@
 # Evaluación de diagnóstico de Arquitectura de Computadoras
 
 | Nombre: | Fecha: | Matrícula: |
-|---------|--------|-----------|
+|Ameli Reyes Hernandez|22/08/2024|22620050|
 |         |        |           |
 
 ## Instrucciones
@@ -12,19 +12,19 @@ Responde las siguientes preguntas con claridad. Cada sección tiene un peso espe
 
 1. **Pregunta de Opción Múltiple:**  
    ¿Cuál de los siguientes es un ejemplo de software de aplicación?  
-   a) Microsoft Word  
+   a) Microsoft Word -----------Respuesta 
    b) Windows 10  
    c) BIOS  
    d) Linux Kernel
 
 2. **Pregunta Abierta:**  
    Define qué es un sistema de gestión de bases de datos (DBMS) y da un ejemplo de su uso.
-
+Es un sistema donde se guardan los diferentes tipos de datos como por ejemplo los datos que se guardan en la aplicacion de la escuela.
 3. **Pregunta de Relación:**  
    Relaciona los siguientes tipos de software con su función principal:
-   - [ ] Software de sistema
-   - [ ] Software de aplicación
-   - [ ] Software de programación
+   - [ C ] Software de sistema
+   - [ B ] Software de aplicación
+   - [ A ] Software de programación
 
    Funciones:
    - A) Facilita tareas específicas del usuario.
@@ -36,7 +36,7 @@ Responde las siguientes preguntas con claridad. Cada sección tiene un peso espe
 1. **Pregunta de Selección Múltiple:**  
    ¿Cuál de los siguientes componentes es parte del hardware de una computadora?  
    a) CPU  
-   b) Sistema operativo  
+   b) Sistema operativo  ------------Respuesta
    c) Microsoft Excel  
    d) Router
 
@@ -45,9 +45,9 @@ Responde las siguientes preguntas con claridad. Cada sección tiene un peso espe
 
 3. **Pregunta de Emparejamiento:**  
    Empareja los siguientes componentes de hardware con su descripción:
-   - [ ] RAM
-   - [ ] Disco Duro
-   - [ ] Tarjeta Madre
+   - [ A ] RAM
+   - [ C ] Disco Duro
+   - [ B ] Tarjeta Madre
 
    Descripciones:
    - A) Memoria de almacenamiento temporal de alta velocidad.
@@ -58,23 +58,23 @@ Responde las siguientes preguntas con claridad. Cada sección tiene un peso espe
 
 1. **Pregunta de Verdadero/Falso:**  
    Un sistema operativo es el software que gestiona el hardware y provee servicios a los programas de aplicación.  
-
+verdadero
    *Justifique su respuesta*.
-
-2. **Pregunta de Comparación:**  
+   se encarga de la gestion asi como el mantenimiento de la aplicacion 
+3. **Pregunta de Comparación:**  
    Compara dos sistemas operativos populares en términos de interfaz de usuario y gestión de archivos.
 
-3. **Pregunta de Desarrollo:**  
+4. **Pregunta de Desarrollo:**  
    Explica cómo un sistema operativo maneja la multitarea en un sistema informático.
-
+al momento de abrir dos pestañas en la computadora esta haceindo dos cosas.
 ## Sección 4: Operaciones en Código Binario (20%)
 
 1. **Pregunta de Ejercicio:**  
    Convierte el número decimal 25 a su equivalente binario.
-
+11001
 2. **Pregunta de Ejercicio:**  
    Realiza la suma de los siguientes números binarios: 1011 + 1101.
-
+11000
 3. **Pregunta Abierta:**  
    Explica la diferencia entre un bit y un byte, y cómo se utiliza el código binario en la representación de datos.
 
@@ -89,8 +89,13 @@ Responde las siguientes preguntas con claridad. Cada sección tiene un peso espe
 
 2. **Pregunta de Desarrollo:**  
    Dibuja el circuito lógico correspondiente a la expresión booleana: A•B+C.
+   A B C
+   . . .
+   . . . . ---) .
+   . . . . ---)   .    
+   . . . . ---) .
 
-3. **Pregunta de Ejercicio:**  
+4. **Pregunta de Ejercicio:**  
    Completa la tabla de verdad para la compuerta XOR con las siguientes combinaciones de entrada:
    - A = 0, B = 0
    - A = 0, B = 1
