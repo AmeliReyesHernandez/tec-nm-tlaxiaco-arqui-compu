@@ -1,0 +1,57 @@
+package ARQUITECTURA;
+import java.util.Scanner;
+/**
+ *
+ * @author Usuario
+ */
+public class ConversoNumeros {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Ingrese el número a convertir:");
+        String numero = scanner.nextLine();
+
+        System.out.println("Ingrese la base del número (2, 8, 10 o 16):");
+        int baseOrigen = scanner.nextInt();
+
+        System.out.println("Ingrese la base a la que desea convertir (2, 8, 10 o 16):");
+        int baseDestino = scanner.nextInt();
+
+        String resultado = convertir(numero, baseOrigen, baseDestino);
+
+        System.out.println("El resultado de la conversión es: " + resultado);
+    }
+
+    /**
+     * Convierte un número de una base a otra.
+     *
+     * @param numero     el número a convertir
+     * @param baseOrigen la base del número
+     * @param baseDestino la base a la que se desea convertir
+     * @return el resultado de la conversión
+     */
+    public static String convertir(String numero, int baseOrigen, int baseDestino) {
+        // Convertir a decimal
+        int decimal = Integer.parseInt(numero, baseOrigen);
+
+        // Convertir a la base destino
+        switch (baseDestino) {
+            case 2:
+                return Integer.toBinaryString(decimal);
+            case 8:
+                return Integer.toOctalString(decimal);
+            case 10:
+                return String.valueOf(decimal);
+            case 16:
+                return Integer.toHexString(decimal);
+            default:
+                throw new UnsupportedOperationException("Base no soportada");
+        }
+    }
+}
